@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Owner ❤️', url='https://t.me/F9Videos')
+                InlineKeyboardButton('Owner ❤️', url='https://t.me/+zADMZX_LbNo3ZDY1')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,9 +45,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/F9Videos')
+            InlineKeyboardButton('Owner ❤️', url='https://t.me/+zADMZX_LbNo3ZDY1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🛠️ Bot Creator', url='https://telegram.Dog/f9devs'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -91,9 +92,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/F9Videos')
+            InlineKeyboardButton('Owner ❤️', url='https://t.me/+zADMZX_LbNo3ZDY1')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🛠️ Bot Creator', url='https://telegram.Dog/f9devs'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
